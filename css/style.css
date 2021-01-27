@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+
+}
+p{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    
+
+}
+
+video {
+    position: fixed;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1 ;
+filter: blur(5px);
+
+}
+
+.titulo{
+margin-top: 250px;
+border-radius: 2px;
+    overflow: hidden;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    margin: 0;
+    background: -webkit-linear-gradient(90deg, rgba(207,231,33,1) 15%, rgba(133,214,15,1) 30%, rgba(17,159,19,1) 63%, rgba(7,88,13,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+.titulo > p > a{
+    text-align: center;
+    text-decoration: none;
+
+    color: greenyellow;
+}
+
+i{
+    padding: 5px;;
+}
+
+
+i:hover{
+    color: greenyellow;
+  filter: blur(5px);
+    transition: 1s;
+    border-radius: 5px;
+}
