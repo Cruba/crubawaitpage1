@@ -22,7 +22,10 @@ video {
     transform: translateX(-50%) translateY(-50%);
     z-index: -1 ;
 filter: blur(5px);
+}
 
+source{
+    z-index: -1;
 }
 
 .titulo{
